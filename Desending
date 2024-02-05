@@ -1,0 +1,10 @@
+// Create an array of numbers
+let numbers = [5, 2, 9, 1, 5, 6];
+
+// Sort the array in descending order
+numbers.sort(function(a, b) {
+  return b - a;
+});
+
+// Print the sorted array
+console.log(numbers);
